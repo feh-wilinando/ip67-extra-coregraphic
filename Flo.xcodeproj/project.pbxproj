@@ -15,6 +15,8 @@
 		5802221F1DD35D9D004B461B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5802221D1DD35D9D004B461B /* LaunchScreen.storyboard */; };
 		5802222A1DD35D9D004B461B /* FloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580222291DD35D9D004B461B /* FloTests.swift */; };
 		580222351DD35D9D004B461B /* FloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580222341DD35D9D004B461B /* FloUITests.swift */; };
+		580222431DD35E35004B461B /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580222421DD35E35004B461B /* PushButtonView.swift */; };
+		580222451DD36C76004B461B /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580222441DD36C76004B461B /* CounterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		580222301DD35D9D004B461B /* FloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		580222341DD35D9D004B461B /* FloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloUITests.swift; sourceTree = "<group>"; };
 		580222361DD35D9D004B461B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		580222421DD35E35004B461B /* PushButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PushButtonView.swift; path = ../PushButtonView.swift; sourceTree = "<group>"; };
+		580222441DD36C76004B461B /* CounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +103,11 @@
 		580222101DD35D9D004B461B /* Flo */ = {
 			isa = PBXGroup;
 			children = (
+				580222421DD35E35004B461B /* PushButtonView.swift */,
 				580222111DD35D9D004B461B /* AppDelegate.swift */,
 				580222131DD35D9D004B461B /* ViewController.swift */,
 				580222151DD35D9D004B461B /* Main.storyboard */,
+				580222441DD36C76004B461B /* CounterView.swift */,
 				5802221B1DD35D9D004B461B /* Assets.xcassets */,
 				5802221D1DD35D9D004B461B /* LaunchScreen.storyboard */,
 				580222201DD35D9D004B461B /* Info.plist */,
@@ -264,7 +270,9 @@
 			files = (
 				580222141DD35D9D004B461B /* ViewController.swift in Sources */,
 				580222121DD35D9D004B461B /* AppDelegate.swift in Sources */,
+				580222431DD35E35004B461B /* PushButtonView.swift in Sources */,
 				5802221A1DD35D9D004B461B /* Flo.xcdatamodeld in Sources */,
+				580222451DD36C76004B461B /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
